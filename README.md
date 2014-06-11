@@ -3,8 +3,9 @@ om-tutorial
 
 Om tutorial first example test for IE8/9
 
-to build just run:
+to build run:
+```
 lein cljsbuild once om-tut
+```
 
-then open index.html. 
-You'll see errors about goog.string.hashCode in IE8 and IE9
+Open index.html, you should shee Hello world! but in IE8/9 you'll see errors about goog.string.hashCode not existing.
